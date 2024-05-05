@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: rgb(59, 125, 138);
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #89b0aeff;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 0 15px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 30px;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.text-content {
+    text-align: justify
+}
+
+.espacio-elementos {
+    margin-bottom: 30px;
+  }
